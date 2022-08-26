@@ -1,0 +1,15 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/billy/CS study/maabada/maman_14'
+gcc -c -m32 -Wall -ansi -pedantic main.c
+gcc -c -m32 -Wall -ansi -pedantic macro_parser.c
+gcc -c -m32 -Wall -ansi -pedantic build_symbol_table.c
+gcc -c -m32 -Wall -ansi -pedantic build_output_files.c
+gcc -c -m32 -Wall -ansi -pedantic encoding.c
+gcc -c -m32 -Wall -ansi -pedantic text_manager.c
+gcc -c -m32 -Wall -ansi -pedantic ./DB/DB_macro.c
+gcc -c -m32 -Wall -ansi -pedantic ./DB/DB_instruction.c
+gcc -c -m32 -Wall -ansi -pedantic ./DB/DB_symbol.c
+gcc -c -m32 -Wall -ansi -pedantic errors.c
+gcc -g -m32 -Wall -ansi -pedantic macro_parser.o build_symbol_table.o build_output_files.o encoding.o text_manager.o DB_macro.o  DB_instruction.o DB_symbol.o errors.o main.o -o assembler
+make: Leaving directory '/home/billy/CS study/maabada/maman_14'
+ 
