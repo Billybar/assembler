@@ -1,13 +1,14 @@
 # assembler
 The Openu 20465 assembler project.
 
-Built for ubuntu 16.04 32bit ANSI-C. Styled with Clang-format.
+Built for ubuntu 32bit ANSI-C.
 
 To build:
 
-make
+`make`
+
 To run:
 
-./assembler  fileName1 fileName2 ...
+`./assembler  fileName1 fileName2 ...`
 
 note: the fileNmae with no .as included 
